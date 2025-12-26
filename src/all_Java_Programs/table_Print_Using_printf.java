@@ -1,0 +1,22 @@
+package all_Java_Programs;
+
+import java.util.Scanner;
+
+public class table_Print_Using_printf {
+    public static void main() {
+        Scanner s= new Scanner(System.in);
+        int d = s.nextInt();
+        System.out.printf("%d*1=%d%n", d,d * 1);
+        System.out.printf("%d*2=%d%n", d,d * 2);
+        System.out.printf("%d*3=%d%n", d,d * 3);
+        System.out.printf("%d*4=%d%n", d,d * 4);
+        System.out.printf("%d*5=%d%n", d,d * 5);
+        System.out.printf("%d*6=%d%n", d,d * 6);
+        System.out.printf("%d*7=%d%n", d,d * 7);
+        System.out.printf("%d*8=%d%n", d,d * 8);
+        System.out.printf("%d*9=%d%n", d,d * 9);
+        System.out.printf("%d*10=%d%n", d,d * 10);
+
+
+    }
+}
